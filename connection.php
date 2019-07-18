@@ -1,9 +1,9 @@
 <?php
 $conf = array();
 $conf['localhost'] = 'localhost';
-$conf['username'] = 'u6458748_cekresiuser';
-$conf['password'] = 'sadeltoe_94';
-$conf['dbname'] = 'u6458748_cekresi';
+$conf['username'] = 'db_username';
+$conf['password'] = 'password';
+$conf['dbname'] = 'db_name';
 
 $conn = new mysqli($conf['localhost'], $conf['username'], $conf['password'], $conf['dbname']);
 
