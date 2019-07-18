@@ -6,7 +6,7 @@ if (isset($_GET['noresi']) && !empty($_GET['noresi'])) {
 	if (isset($_GET['kurir']) && !empty($_GET['kurir'])) {
 		$noresi = $_GET['noresi'];
 		$kurir = $_GET['kurir'];
-		$api = '28d8b48767f82fa8b0c7e847ebadb8e4'; //Isi dengan api dari rajaongkir
+		$api = 'isi dengan API Raja Ongkir'; //Isi dengan api dari rajaongkir
 		
 		$notif = 0;
 		
